@@ -1,0 +1,28 @@
+.animate-gradient-background {
+  background: linear-gradient(-45deg, #ff00cc, #3333ff, #33ccff, #ffff66);
+  background-size: 400% 400%;
+  animation: gradientAnimation 10s ease infinite;
+}
+.animate-gradient-background {
+  background: linear-gradient(-45deg, #ff00cc, #3333ff, #33ccff, #ffff66);
+  background-size: 400% 400%;
+  animation: gradientAnimation 10s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
